@@ -10,7 +10,104 @@
 </head>
 <body>
     
+<div class="container"> 
 
+<table>
+    <tr>
+        <td colspan="4" class="text-center main-title">Haftalık Bütçe Uygulaması</td>
+        
+    </tr>
+    <tr>
+        <td colspan="4"  class="text-center secondary-title">Market Harcamaları</td>
+  
+    </tr>
+    <tr class="text-bold">
+        <td>Türü</td>
+        <td>Tane</td>
+        <td>Fiyat</td>
+        <td>Sonuç</td>
+    </tr>
+    <tr>
+        <td>Süt</td>
+        <td>
+            <input type="number" id="product1_piece">
+        </td>
+        <td>
+            <input type="number" id="product1_price">
+        </td>
+        <td>
+            <input type="number" id="product1_total" disabled>
+        </td>
+    </tr>
+    <tr>
+        <td>Meyve Suyu</td>
+        <td>
+            <input type="number" id="product2_piece">
+        </td>
+        <td>
+            <input type="number" id="product2_price">
+        </td>
+        <td>
+            <input type="number" id="product2_total" disabled>
+        </td>
+    </tr>
+    <tr>
+        <td>Peynir</td>
+        <td>
+            <input type="number" id="product3_piece">
+        </td>
+        <td>
+            <input type="number" id="product3_price">
+        </td>
+        <td>
+            <input type="number" id="product3_total" disabled>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">Ara Toplam</td>
+        <td>
+            <input type="number" id="subtotal1" disabled>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4" class="text-center secondary-title">Manav Harcamaları</td>
+ 
+    </tr>
+    <tr class="text-bold">
+        <td>Türü</td>
+        <td>Kg</td>
+        <td>Fiyat</td>
+        <td>Sonuç</td>
+    </tr>
+    <tr>
+        <td>Domates</td>
+        <td>1</td>
+        <td>10</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Biber</td>
+        <td>2</td>
+        <td>15</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td colspan="3">Ara Toplam </td>
+
+        <td>40</td>
+    </tr>
+    <tr>
+        <td colspan="4">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="3">Ana Toplam</td>
+        <td>228</td>
+    </tr>
+</table>
+
+<input type="submit" value="Hesapla >>" id="hesapla">
+
+</div> 
 
     <script src="js/app.js"></script>
 </body>

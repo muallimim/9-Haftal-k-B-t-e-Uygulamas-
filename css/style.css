@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+table, tr, td{
+    border: 1px solid gray;
+}
+
+td{
+    padding: 3px 15px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-bold>td{
+    font-weight: bolder;
+}
+
+.main-title{
+    font-size: 40px;
+}
+
+.secondary-title{
+    font-size: 30px;
+}
+
+input[type=number]{
+    width: 55px;
+    text-align: center;
+    font-size: 18px;
+}
+
+input[type=number]:hover{
+ background-color: blanchedalmond;
+}
+
+#hesapla{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 26px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+#hesapla:hover{
+  background-color: rgb(64, 16, 109);
+  color: white;
+}
